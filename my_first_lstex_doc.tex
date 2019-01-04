@@ -1,0 +1,83 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{hyperref}
+%\usepackage{url}
+\begin{document}
+
+
+Adding new text here...
+
+Hello, world!
+no line break
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae molestie nibh. Nam porttitor turpis in egestas tempor. Praesent molestie commodo velit. In tristique quis est vel consectetur. Maecenas in tempus \\nulla. Nunc et congue leo. Aliquam viverra arcu id commodo faucibus. Proin ut quam eu turpis tristique gravida. Donec blandit, risus vitae mollis dapibus, turpis diam vulputate risus, a volutpat odio dolor in nisi. Aenean lacinia volutpat magna, in sollicitudin quam consequat vel. Nullam tincidunt quam metus, non tristique risus blandit at. Nulla facilisi. Praesent scelerisque consequat magna, a aliquet urna pulvinar eget. Nam vitae tempus lorem.
+
+
+
+
+
+still a single line break
+
+A word
+
+A             word
+
+Aword
+
+
+\begin{table}[]
+\centering
+\caption{My second table}
+\label{tab:second_table}
+\begin{tabular}{clllr}
+a & \textit{b} & \textbf{c} & d & ekjkjnjknljnllknijl \\
+1 & \textit{}  & \textbf{}  & 3 &                     \\
+  & \textit{2} & \textbf{}  &   & 3                   \\
+  & \textit{4} & \textbf{}  & 5 &                    
+\end{tabular}
+\end{table}
+
+
+\begin{table}[]
+\centering
+\caption{My caption}
+\label{tab:first_table}
+\begin{tabular}{clllr}
+a & \textit{b} & \textbf{c} & d & ekjkjnjknljnllknijl \\
+1 & \textit{}  & \textbf{}  & 3 &                     \\
+  & \textit{2} & \textbf{}  &   & 3                   \\
+  & \textit{4} & \textbf{}  & 5 &                    
+\end{tabular}
+\end{table}
+
+
+
+\textbf{Bold text}
+
+
+\begin{equation}\label{eqn:first_eqn}
+A = b^2  + c^2
+\end{equation}
+
+
+
+As we see in \autoref{tab:first_table}, blah blah blah.
+
+
+But as we see in  $a = \sqrt{\frac{b}{\theta}}$ \autoref{tab:second_table}, blah blah
+
+In the works of AS Voyles \emph{et al.}, blah blah  \cite{Voyles2017}.  We also see from \autoref{eqn:first_eqn} in Stuctural Geology that blah blah  \cite{dennis1972structural}.
+
+
+
+
+\bibliographystyle{ieeetr}
+\bibliography{library}
+%\printbibliography
+
+
+
+
+\end{document}
